@@ -1,0 +1,12 @@
+E:\ÁÃÓ\ÓÏ(4 ñåì)>git log
+commit 58c70a4d032d4de719ab0ace85fde7455a95dfac (HEAD -> master)
+Author: ArtemVazhnik <milten.art@gmail.com>
+Date:   Mon Feb 17 18:28:10 2020 +0300
+
+    addtask1/status.txt
+
+commit df2273dfb849f97e2da9c61e4bfd079ae049353a
+Author: ArtemVazhnik <milten.art@gmail.com>
+Date:   Mon Feb 17 18:25:35 2020 +0300
+
+    add.gitignore
