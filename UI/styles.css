@@ -1,0 +1,428 @@
+body {
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /*background: #515151;*/
+  background: #F2F2F2;
+}
+
+main {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	height: 7%;
+	width: 40%;
+	left: 30%;
+	border-bottom-right-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+	margin-bottom: 1rem;
+}
+
+main h3 {
+	margin: 0;
+}
+
+main .filter {
+	margin: 0;
+	text-decoration: none;
+}
+
+main .filter p {
+	margin: 0;
+	color: #000;
+}
+
+main .Login {
+	text-decoration: none;
+}
+
+main .Login p {
+	margin: 0;
+	color: #000;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+		
+	position: fixed;
+	left: 12%;
+	width: 15%;
+	height: 60%;
+	border-bottom-right-radius: 1rem;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+
+}
+
+#newstape {
+	display: flex;
+	flex-direction: column;
+
+	position: absolute;
+	top: 7%;
+	left: 30%;
+	width: 40%;
+	margin-top: 1rem;
+}
+
+#rightPart {
+	position: fixed;
+	left: 75%;
+	width: 15%;
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+}
+
+#searchfield {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10%;
+	border-radius: 10rem;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+}
+
+#searchfield .find-data {
+	border: 0;
+	background: #F9F9F9;
+}
+
+#searchfield img {
+	border: 0;
+	height: 60%;
+}
+
+.recomendText {
+	display: inline;
+	top: 6%;
+	align-self: center;
+	font-size: 1rem;
+}
+
+#recomendations {
+	display: flex;
+	flex-flow: column;
+	top: 15%;
+	height: 70%;
+	border-radius: 1.6rem;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+}
+
+.toPostField {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;	
+	border-top: 2%;
+	position: relative;
+	height: 10rem;
+	width: 100%;
+	border-radius: 0.5rem;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+}
+
+.postWithPhoto {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+	padding: 0;
+	border-radius: 0.5rem;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+}
+
+.logo {
+	position: relative;	
+	width: 100%;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-bottom: 10%;
+}
+
+.mainBTN {
+	position: relative;
+	height: 6%;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	margin-left: 1.5rem;
+	margin-top: 0.8rem;
+}
+
+.mainBTN p {
+	display: inline-flex;
+	position: relative;
+	padding-left: 1.5rem;
+	font-size: 110%;
+	font-weight: bold;
+	color: #000;
+}
+
+.mainBTN .ProfileBTN {
+	height: 115%;
+}
+
+.mainBTN p.mainBTNText {
+	color: #0076E2;
+}
+
+.ProfileIcon {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 2%;
+}
+
+.toPostField .textInput {
+	height: 50%;
+	width: 80%;
+	border: none;
+	background: #F9F9F9;
+}
+
+.toPostField .textInput {
+	height: 50%;
+	width: 80%;
+	border: none;
+	background: #F9F9F9;
+}
+
+.toPostField .Buttons {
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 0.5rem;
+	justify-content: space-around;
+	padding-left: 20rem;
+	align-self: flex-end;
+	height: 2rem;
+	width: 100%;
+}
+
+.toPostField .Share {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background: #0076E2;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 5rem;
+}
+
+.Share p {
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+}
+
+.postWithPhoto .MainBlock {
+	display: inline-flex;
+	flex-flow: column;
+	width: 80%;
+	
+}
+
+.postWithPhoto .PostPhoto {
+	display: flex;
+	width: 80%;
+	margin-right: 2rem;
+	margin-left: 5.2rem;
+	margin-top: 0.5rem;
+}
+
+.postWithPhoto .UIBlock {
+	display: inline-flex;
+	align-self: flex-end;
+	justify-content: space-between;
+	width: 100%;
+	margin-left: 5.2rem;
+	margin-right: 2rem;  
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.postWithPhoto .UIBlock .Comment {
+	display: flex;
+	flex-flow: row;
+}
+
+.postWithPhoto .UIBlock .Comment p {
+	margin: 0;
+	margin-left: 0.1rem;
+	align-self: center;
+}
+
+.postWithPhoto .UIBlock .Like {
+	display: flex;
+	flex-flow: row;
+}
+
+.postWithPhoto .UIBlock .Like p {
+	margin: 0;
+	margin-left: 0.1rem;
+	align-self: center;
+}
+
+.postWithPhoto .MainBlock .postData {
+	display: flex;
+	flex-flow: row;
+}
+
+.postWithPhoto .MainBlock .PostHashes {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+
+.postWithPhoto .MainBlock .PostHashes p {
+	margin: 0.1rem;
+	color: #0076E2;
+}
+
+.Authority {
+	margin-bottom: 0;
+	margin-right: 0.5rem;
+	font-weight: bold;
+}
+
+.adress {
+	margin-bottom: 0;
+	margin-right: 0.5rem;
+	color: #D8D8D8;
+}
+
+.postWithPhoto .MainBlock .postData .postTime {
+	margin-bottom: 0;
+	margin-right: 0.5rem;
+	color: #D8D8D8;
+}
+
+#recomendations .recommended {
+	display: flex;
+	flex-flow: column;
+	flex-wrap: wrap;
+	height: 25%;
+}
+
+#recomendations .recommended img {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+#recomendations .recommended .AutorData {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	padding-right: 1rem;
+}
+
+#recomendations .recommended .AutorData p {
+	margin: 0;
+	margin-left: 1rem;
+}
+
+#recomendations .recommended .recomendationsBTN {
+	padding: 0.3rem;
+	padding-left: 1rem;
+	padding-right: 1rem; 
+	margin-top:0.5rem;
+	display: flex;
+	border: 1px solid #0076E2;
+	align-self: center;
+	justify-content: flex-end;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 5rem;
+}
+
+#recomendations .recommended .recomendationsBTN p {
+	padding: 0;
+	margin: 0;
+	color: #0076E2;
+}
+
+#newstape .DownloadMore {
+	padding-left: 1rem;
+	padding-right: 1rem; 
+	margin: 1rem;
+	display: flex;
+	border: 1px solid #D8D8D8;
+	background: #F9F9F9;
+	align-self: center;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 5rem;
+}
+
+#newstape .DownloadMore p {
+	padding: 0;
+	margin: 0;
+	color: #D8D8D8;
+}
+
+#button {
+        display: none;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+main #button:target {
+	display: block;
+}
+
+main #button .popUpWindow {
+	display: flex;
+	flex-flow: column;
+	/*align-items: center;*/
+	justify-content: center;
+	z-index: 1;
+	position: absolute;
+	background-position: bottom;
+	width: 5rem;
+	height: 7rem;
+	background: #D8D8D8;
+	border-radius: 1rem;
+	top:3rem;
+	left: 74%;
+	/*border: 1px solid black;*/
+}
+
+main #button .popUpWindow p {
+	align-self: center;
+	margin:0.5rem;
+	/*border: 1px solid black;*/
+}
+
+footer {
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	flex-wrap: wrap;
+	left: 75%;
+	width: 15%;
+	top: 52%;
+}
+
+footer p {
+	margin: 0.2rem;
+	display: flex;
+	font-size: 70%;
+}
