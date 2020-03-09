@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "23c5d43b-13d2-473b-b04c-4973be49033d",
+		"name": "dogs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://images.dog.ceo/breeds/pyrenees/n02111500_7583.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images.dog.ceo/breeds/pyrenees/n02111500_7583.jpg",
+					"protocol": "https",
+					"host": [
+						"images",
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"breeds",
+						"pyrenees",
+						"n02111500_7583.jpg"
+					]
+				},
+				"description": "requests 1 dog image"
+			},
+			"response": []
+		},
+		{
+			"name": "https://images.dog.ceo/breeds/pyrenees/n02111500_7583.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images.dog.ceo/breeds/saluki/n02091831_355.jpg",
+					"protocol": "https",
+					"host": [
+						"images",
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"breeds",
+						"saluki",
+						"n02091831_355.jpg"
+					]
+				},
+				"description": "requests saluki image"
+			},
+			"response": []
+		},
+		{
+			"name": "https://images.dog.ceo/breeds/pyrenees/n02111500_7583.jpg",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://images.dog.ceo/breeds/retriever-curly/n02099429_674.jpg",
+					"protocol": "https",
+					"host": [
+						"images",
+						"dog",
+						"ceo"
+					],
+					"path": [
+						"breeds",
+						"retriever-curly",
+						"n02099429_674.jpg"
+					]
+				},
+				"description": "requests retriever image"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
