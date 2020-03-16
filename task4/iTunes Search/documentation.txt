@@ -1,0 +1,8 @@
+search requests:
+
+1)To search for all Jack Johnson audio and video content (movies, podcasts, music, music videos, audiobooks, short films, and tv shows), 
+You will get the list of all Jack Johnson's audio and video content.
+2)To search for all Jack Johnson audio and video content and return only the first 25 items, 
+You will get the list with the first 25 items of all Jack Johnson's audio and video content.
+3)To search for all Jim Jones audio and video content and return only the results from the Canada iTunes Store
+You will get the list of all Jim Jones's audio and video content from the Canada iTunes Store/
